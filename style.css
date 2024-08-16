@@ -1,0 +1,405 @@
+
+:root {
+    --white-font: #FFFFFF;
+    --black-font: #000000;
+    background-color: bisque;
+    
+}
+
+
+.main-container {
+    max-width: 72em;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
+   
+    
+}
+
+
+
+.city-card-image{
+    
+        position:absolute; 
+        width: stretch; 
+        max-width: 100%; 
+}
+
+
+    .photo-card {
+        
+            border: 2px solid #616161;  
+            padding: 20px;          
+            width: fit-content;     
+            background-color: bisque; 
+            border-radius: 5px;     
+            font-family: Arial, sans-serif; 
+            text-align: left;      
+            word-wrap: break-word; 
+        }
+
+
+    .photo {
+             width: 50%;
+            margin-left:  8%;
+            height: 100%;
+        }
+
+
+
+
+
+
+#image1{
+    grid-area: im1;
+}
+
+
+
+#banner {
+    grid-area: ban;
+    position:absolute;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
+    font-weight: bolder; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;     
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-top: 62%;
+    margin-left: 40%;
+    
+
+}
+
+
+#image2 {
+    grid-area: im2;
+    position: absolute;
+    margin-top: 50%;
+    width: 80%;
+    margin-left: 30%;
+}
+
+
+
+#network-text {
+    grid-area: net;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;     
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-top:-20% ;
+    margin-left: 60%;
+    }
+   
+
+#reason-text{
+    grid-area: res;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;     
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-top:13% ;
+    margin-bottom:5% ;
+    margin-left: 50%;
+}
+
+
+#image3 {
+    grid-area: im3;
+    position: absolute;
+    width: stretch;
+    margin-left: 80%;
+}
+
+
+
+#tech-text {
+    grid-area: tec;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;     
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-top:0% ;
+    margin-left: 50%;
+}
+
+
+#photo1 {
+    grid-area: pt1;
+}
+
+
+#photo2 {
+    grid-area: pt2;
+    position: absolute;
+    margin-top: -15%;
+    width: 60%;
+    margin-left: 60%;
+}
+
+
+#photo3 {
+    grid-area: pt3;
+}
+
+
+
+#political-text{
+    grid-area: pol;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;         
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;    
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    word-wrap: break-word; 
+    max-width: 400px; 
+    margin-top:5% ;
+    margin-left: 10%;
+}
+
+
+
+#photo4 {
+    grid-area: pt4;
+    position: absolute;
+    width: 70%;
+    margin-left: 55%;
+    margin-top: -50%;
+}
+
+
+#photo5 {
+    grid-area: pt5;
+    position: absolute;
+    width: 70%;
+    margin-left: 55%;
+    margin-top: -25%;
+    
+}
+
+
+#photo6 {
+    grid-area: pt6;
+    margin-top:5% ;
+    
+}
+
+
+
+#risk-text {
+    grid-area: rsk;
+    left: 40%;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;    
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-left: 60%;
+    margin-top: -20%;
+}
+
+
+
+#photo7 {
+    grid-area: pt7;
+    width: 90%;
+    margin-left:40%;
+    margin-top:15% ;
+    margin-bottom: 5%;
+}
+
+
+
+#ai-text {
+    grid-area: ait;
+    left: 40%;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 2vw + 1rem, 42);
+    font-weight: normal; 
+    padding: 40px;          
+    width: stretch;     
+    background-color: bisque; 
+    border-radius: 5px;    
+    font-family: Arial, sans-serif; 
+    text-align: left;
+    max-width: 400px; 
+    word-wrap: break-word; 
+    margin-top: 0%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+
+
+#conclusion-text {
+    left: 40%;
+    grid-area: clc;
+    color: rgb(0, 0, 0); 
+    font-size: clamp(20, 42, 64);
+    font-weight: normal; 
+    padding: 40px;          
+    width: 100%;     
+    background-color: #ead72e; 
+    border-radius: 20px;     
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 1400px; 
+    margin-left: 0%;
+}
+
+
+
+#photo8 {
+    grid-area: pt8;
+    position: absolute;
+    width: 50%;
+    margin-left: 18%;
+
+}
+
+
+#photo9 {
+    grid-area: pt9;
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    
+}
+
+
+
+.main-container {
+    display: grid;
+    column-gap: 1em;
+}
+
+@media (min-width: 37em) {
+    .main-container {
+        grid-template: 
+        "im1 im1 im1 im1 im1" minmax(20em, auto)
+        " .   .   .   .   . " minmax(20em, auto)
+        " .   .  ban ban ban" minmax(20em, auto)
+        "im2 im2 im2 im2 im2" minmax(20em, auto)
+        "net net net net net" minmax(20em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "im3 im3 im3 im3 im3" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt1 pt1 tec tec tec" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt2 pt2 tec tec tec" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt3 pt3 pt3 pt3 pt3" minmax(2em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt4 pt4 pt4 pt4 pt4" minmax(2em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pol pol pol pol pol" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt5 pt5 pt5 pt5 pt5" minmax(2em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "rsk rsk rsk rsk rsk" minmax(2em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt6 pt6 pt6 pt6 pt6" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "ait ait ait ait ait" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "clc clc clc clc clc" minmax(8em, auto)
+        " .   .   .   .   . " minmax(2em, auto)
+        "pt8 pt8  .  pt9 pt9" 
+        " .   .   .   .   . " minmax(2em, auto)
+}
+}
+
+@media (min-width: 50em) {
+    .main-container {
+            grid-template: 
+            "im1 im1 im1 im1 im1 im1 im1 im1" minmax(0em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            " .   .   .   .  ban ban ban ban" minmax(0em, auto)
+            "im2 im2 im2 im2 im2 net net net" minmax(0em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "res res res res im3 im3 im3 im3" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "pt1 pt1 pt1 pt1 tec tec tec tec" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "pt3 pt3 pt3 pt3 pt2 pt2 pt2 pt2" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "pol pol pol pol pt4 pt4 pt4 pt4" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            " .   .   .   .  pt5 pt5 pt5 pt5" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "pt6 pt6 pt6 pt6 pt6 rsk rsk rsk" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "ait ait ait ait pt7 pt7 pt7 pt7" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "clc clc clc clc clc clc clc clc" minmax(8em, auto)
+            " .   .   .   .   .   .   .   . " minmax(1em, auto)
+            "pt8 pt8 pt8 pt8 pt9 pt9 pt9 pt9" 
+    }
+}
+
+@media (min-width: 72em) {
+    .main-container {
+            grid-template:
+              " .  im1 im1 im1 im1 im1 im1 im1 im1 im1 im1  . " minmax(5em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .   .   .   .   .   .   .  ban ban ban ban  . " minmax(30em, auto)
+              "im2 im2 im2 im2 im2 im2 im2 im2 net net net net" minmax(1em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .  res res res res  .  im3 im3 im3 im3 im3 im3" minmax(0em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              "pt1 pt1 pt1 pt1 pt1 pt1  .  tec tec tec tec tec" minmax(0em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              "pt3 pt3 pt3 pt3 pt3 pt3 pt2 pt2 pt2 pt2 pt2 pt2" minmax(8em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .  pol pol pol pol  .  pt4 pt4 pt4 pt4 pt4 pt4" minmax(0em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .   .   .   .   .   .  pt5 pt5 pt5 pt5 pt5 pt5" minmax(8em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              "pt6 pt6 pt6 pt6 pt6 pt6 pt6 pt6 rsk rsk rsk rsk" minmax(8em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .  ait ait ait ait  .  pt7 pt7 pt7 pt7 pt7 pt7" minmax(8em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              "clc clc clc clc clc clc clc clc clc clc clc clc" minmax(2em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+              " .  pt8 pt8 pt8 pt8  .   .  pt9 pt9 pt9 pt9 pt9" minmax(2em, auto)
+              " .   .   .   .   .   .   .   .   .   .   .   . " minmax(1em, auto)
+          }
+    }
+
